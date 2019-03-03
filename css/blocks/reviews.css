@@ -1,0 +1,59 @@
+
+
+.reviews{
+	width: 260px;
+	margin-right: 20px
+}
+
+
+.reviews_title{
+	color: #000;
+	font-family: 'Playfair Display', serif;	
+	font-size: 36px;
+	font-weight: 400;
+	letter-spacing: 0.29px;
+	margin-bottom: 45px;
+}
+
+
+.review_item{
+	margin-bottom: 25px;
+	position: relative;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #e7e7e7;
+
+}
+.review_item:before{
+	content: "";
+	z-index: -1;
+	top: 0px;
+	position: absolute;
+	left: -18px;
+	display: block;
+	width: 36px;
+	height: 29px;
+	background-image: url("../../img/icons/quote.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.review_item_text{
+	color: #999;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.9;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+
+.review_item_author:before{
+	content: "-  ";
+	}
+
+
+.review_item_author{
+	color: #000;
+	font-size: 16px;
+	font-weight: 900;
+	line-height: 1.9;
+}

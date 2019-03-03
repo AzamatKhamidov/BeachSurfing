@@ -1,0 +1,58 @@
+
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: #000;
+}
+
+
+
+.container{		
+	width: 1053px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+.text_center{
+	text-align: center;
+}
+.button{
+	height: 56px;
+	display: inline-block;
+	line-height: 1;
+	color: #000;
+	font-size: 18px;
+	font-weight: 500;
+	border: 1px solid #41475b;
+	background-color: #fff;
+	transition: all 0.2s ease-in;
+	padding: 18px 45px 0;
+	text-decoration: none;
+}
+.mb-70{
+	margin-bottom: 70px !important;
+}
+
+.cta-section{
+	margin-bottom: 145px;
+}
+.button:hover{
+	text-decoration: none;
+	font-weight: 900;
+	background-color: #000;
+	color: #FFF
+}
+
+
+.header-1{
+	text-align: center;
+	color: #000;
+	font-family: 'Playfair Display', serif;	
+	font-size: 50px;
+	font-weight: 400;
+	margin-top: 0;
+	margin-bottom: 85px;
+	letter-spacing: 0.41px;
+}

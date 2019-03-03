@@ -1,0 +1,51 @@
+
+
+
+.nav_wrapper{
+	width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	padding-top: 92px;
+	margin-bottom: 220px
+}
+
+
+
+.nav{
+
+}
+
+
+
+
+.nav_item:hover, a.active{
+	color: #111;
+	text-decoration: none;
+	font-weight: 600;
+
+}
+
+
+.nav_item:last-child{
+	
+	margin-right: 0px;
+
+}
+
+.nav_item{
+
+	text-decoration: none;
+	margin-right: 70px;
+	color: #aaa;
+	font-size: 15px;
+	font-weight: 500;
+	text-transform:  uppercase;
+	transition: all 0.2s ease-in;
+	letter-spacing: 0.3px;
+	
+
+}
+

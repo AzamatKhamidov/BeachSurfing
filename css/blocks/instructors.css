@@ -1,0 +1,29 @@
+.intructor_wrapper{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 255px;
+}
+
+.intructor{
+	text-align: center;
+}
+
+.intructor_photo{
+	margin-bottom: 30px;
+}
+
+.intructor_name{
+	color: #000;
+	font-family: 'Playfair Display', serif;	
+	font-size: 30px;
+	margin-bottom: 10px;
+	font-weight: 400;
+	letter-spacing: 0.28px;
+}
+
+.intructor_students{
+	color: #10ed38;
+	font-size: 15px;
+	font-weight: 500;
+	letter-spacing: 0.14px;
+}

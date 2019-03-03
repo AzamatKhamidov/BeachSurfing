@@ -1,0 +1,23 @@
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+*/
+
+/*libs*/
+@import "libs/bootstrap-reboot.css";
+
+
+/*Blogs*/
+@import "blocks/base.css";
+@import "blocks/nav.css";
+@import "blocks/reviews.css";
+@import "blocks/video.css";
+@import "blocks/header.css";
+@import "blocks/instructors.css";
+@import "blocks/blog.css";
+@import "blocks/footer.css";
+
+
+
+
+
